@@ -61,6 +61,7 @@ export default function Meme() {
                     Get a new meme image 🖼
                 </button>
             </div>
+            {/* Added a style object to the .meme div to make it a flex container and center its child elements */}
             <div className="meme" style={{ display: 'flex', justifyContent: 'center' }}>
                 <img src={meme.randomImage} className="meme--image" />
                 <h2 className="meme--text top">{meme.topText}</h2>
